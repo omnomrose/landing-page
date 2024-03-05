@@ -1,0 +1,140 @@
+.main {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+
+.tagline {
+    font-size: var(--header);
+    font-weight: 400;
+    color: var(--black);
+    line-height: 50px;
+}
+
+.ctaBtns {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.adoptBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 76.37px;
+    border-radius: var(--border-radius);
+    border: var(--black) solid 1px;
+    color: var(--black);
+    transition: background-color 0.3s ease; 
+    font-size: 30px;
+    font-weight: 300;  
+}
+
+ .adoptBtn:hover {
+    background-color: var(--black);
+    border: none;
+    color: var(--white);
+  }
+
+.foldContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.taglineCta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.catHeader{
+    height: 40rem;
+}
+
+
+.aboutHeader {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    color: var(--teal);
+}
+
+.volunteerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80rem;
+    gap: 15rem;
+}
+
+.aboutContainer {
+   padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 10rem;
+    gap: 35px;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    font-weight: 300;
+    line-height: 31.25px;
+    color: var(--black);
+}
+
+.paw{
+    width: 50rem;
+    height: 25rem;
+}
+
+.charityContainer{
+   padding-top: 15rem;
+    display: flex;
+    flex-direction: row;
+    width: 80rem;
+    justify-content: space-evenly;
+}
+
+.charityHeader{
+    color: var(--teal);
+    font-weight: 400;
+    font-size: 40px;
+    width: 160rem;
+    }
+
+.charity{
+    color: var(--black);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31.25px;
+    width: 111rem;
+}
+
+.cardContainer{
+   padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Cta{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
